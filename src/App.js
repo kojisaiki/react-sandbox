@@ -19,8 +19,13 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyComponent />
     </div>
   );
+}
+
+function MyComponent() {
+  return <p>My Component!</p>;
 }
 
 export default App;
